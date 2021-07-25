@@ -1,0 +1,79 @@
+table,tr,td{
+    border: solid 3px white;
+}
+*{
+    font-family:Roboto;
+}
+#button{
+    background-color: #C68B59;
+}
+body{
+    background-image: url("../img/BookCourt_iStock-690358116-e1515177346323.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 60px;
+}
+#formcontainer{
+    margin-left: 20px ;
+}
+#form{
+    padding: 10px;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 60px;
+    color: white;
+}
+main{
+    display: flex;
+}
+#tablecontainer{
+    width: fit-content;
+    background-color: black;
+    opacity: 0.5;
+    color: white;  
+    margin-top: 60px;
+    float: right;
+    margin-left: 100px;
+}
+label{
+    margin-right: 100PX;
+}
+#name{
+    width: 190px;
+    height: 22px;
+    float: right;}
+#price,#button{
+    width: 200px;
+    height: 30px;
+    float: right;
+}
+td{
+    width: 200px;
+}
+table{
+    margin: 20px;
+}
+div{
+}
+p{
+    text-align: center;
+}
+footer{
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 40px;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+    color: white;  
+}
